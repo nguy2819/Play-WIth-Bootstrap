@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 
 const Fonted = styled.div`
-  font-family: Parisienne;
+  font-family: VT323;
   font-color: #ffc4a5
 `;
 
@@ -29,8 +29,8 @@ class NavBar extends Component {
                 <span class="navbar-toggler-icon"></span>
               </button>
 
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-              <ul class="navbar-nav mr-sm-0">
+            <div class="collapse navbar-collapse nav justify-content-end" id="navbarResponsive">
+              <ul class="nav navbar-nav justify-content-end mr-auto">
                 <li class="nav-item active">
                   <a class="nav-link" href="/TienBorland">Home</a>
                 </li>

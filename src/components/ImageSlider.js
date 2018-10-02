@@ -1,9 +1,15 @@
 import React, { Component } from 'react';
 // import styled from 'styled-components';
 
+// const SmallCarosel = styled.div`
+//     height: 1000px;
+// `;
+
 class ImageSlider extends Component {
     render() {
       return (
+        //   <SmallCarosel>
+        <div id="home">
             <div id="slides" class="carousel slide" data-ride="carousel">
                 <ul class="carousel-indicators">
                     <li data-target="#slides" data-slide-to="0" class="active"></li>
@@ -29,7 +35,12 @@ class ImageSlider extends Component {
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                 </a>
+                {/* <div class="landing-text">
+                    <a href="/About" class="btn btn-default btn-lg">View My Works</a>
+                </div> */}
             </div>
+        </div>
+        // </SmallCarosel>
     );
   }
 }
