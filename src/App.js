@@ -8,6 +8,7 @@ import Portfolio from './components/Portfolio';
 import Testimonial from './components/Testimonial';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Services from './components/Services';
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
         <ImageSlider />
         <NavBar />
         <About />
+        <Services />
         <Portfolio />
         <Testimonial />
         <Contact />

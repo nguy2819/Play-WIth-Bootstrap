@@ -25,12 +25,18 @@ class About extends Component {
                             <div className="col-lg-4"><i class="fab fa-html5 fa-5x" style={{color:'orange'}}></i></div>
                             <div className="col-lg-4"><i class="fab fa-css3-alt fa-5x" style={{color:'DodgerBlue'}}></i></div>
                             <div className="col-lg-4"><i class="fab fa-js-square fa-5x" style={{color:'gold'}}></i></div>
+                        </div>
+                        <div className="row">
                             <div className="col-lg-4"><i class="fab fa-react fa-5x" style={{color:'DeepSkyBlue'}}></i></div>
                             <div className="col-lg-4"><i class="fab fa-node fa-5x" style={{color:'SeaGreen'}}></i></div>
                             <div className="col-lg-4"><i class="fab fa-git-square fa-5x" style={{color:'DarkOrange'}}></i></div>
+                        </div>
+                        <div className="row">
                             <div className="col-lg-4"><img src="https://mc.qcloudimg.com/static/img/80badb843de9871e0b49d51653772e57/MongoDB.png"style={{width: '110px', height: '110px'}} alt="MongoDB"/></div>
                             <div className="col-lg-4"><img src="https://firebase.google.com/_static/images/firebase/touchicon-180.png"style={{width: '90px', height: '90px'}} alt="Firebase"/></div>
                             <div className="col-lg-4"><img src="https://pluralsight.imgix.net/paths/path-icons/csharp-e7b8fcd4ce.png" style={{width: '110px', height: '110px'}} alt="C#"/></div>
+                        </div>
+                        <div className="row">
                             <div className="col-lg-4"><i class="fab fa-github fa-5x"style={{color:'black'}}></i></div>
                             <div className="col-lg-4"><img src="https://s3-us-west-1.amazonaws.com/striim-prod-media/wp-content/uploads/2018/06/22135447/Azure-SQL-icon.png"style={{width: '100px', height: '90px'}} alt="SQLDB"/></div>
                             <div className="col-lg-4"><img src="https://www.kinamu.com/wp-content/uploads/2017/12/API_REST.png"style={{width: '130px', height: '100px'}} alt="RESTfulAPI"/></div>

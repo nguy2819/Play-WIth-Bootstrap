@@ -20,7 +20,7 @@ class Portfolio extends Component {
         <BackGroundColor className="container-fluid padding">
             <div className="row welcome text-center">
                 <div className="col-12">
-                    <Fonted><h1 className="display-4 text-white">Projects</h1></Fonted>
+                    <Fonted><h1 className="display-4 text-white"><u>Projects</u></h1></Fonted>
                     <hr />
                 </div>
             </div>
